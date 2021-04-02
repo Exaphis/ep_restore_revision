@@ -7,7 +7,6 @@ function defer(toWaitFor, method) {
 }
 
 defer('jQuery', () => {
-    console.log('jq done')
     $(document).on('click', '.js-repeat-revision', function(e){
       //var rev = BroadcastSlider.getSliderPosition();
       var rev = window.location.hash.substring(1);
