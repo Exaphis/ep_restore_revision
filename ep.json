@@ -1,0 +1,12 @@
+{
+    "parts": [
+        {
+            "name": "restore_revision",
+            "hooks": {
+                "expressCreateServer": "ep_restore_revision/index:expressCreateServer",
+                "eejsBlock_timesliderEditbarRight": "ep_restore_revision/index:eejsBlock_timesliderEditbarRight",
+                "eejsBlock_timesliderScripts": "ep_restore_revision/index:eejsBlock_timesliderScripts"
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "name": "ep_restore_revision",
+    "description": "Adds option to restore revision in timeslider. Needed api 1.2.11 ",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "cristo rabani",
+            "email": "cristo.rabani@gmail.com",
+            "url": "vazco.eu"
+        },
+        {
+            "name": "Kevin Wu",
+            "email": "kevin@kevinniuwu.com"
+        }
+    ],
+    "engines": {
+        "node": "*"
+    },
+    "dependencies": {
+    }
+}
+
